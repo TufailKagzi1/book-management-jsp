@@ -24,35 +24,37 @@ A full-stack web application built using **Java Servlets, JSP, and JDBC** to man
 - `web/`: JSP and HTML frontend files
 - `WEB-INF/web.xml`: Servlet and route configuration
 
+## 📁 Project Structure
+
 book-management-jsp/
 ├── src/
-│   └── com/register/
-│       ├── Login.java
-│       ├── Logout.java
-│       ├── RegisterServlet.java
-│       ├── addbook.java
-│       ├── bookdelete.java
-│       ├── bookupdate.java
-│       └── feedback.java
+│ └── com/register/
+│ ├── Login.java
+│ ├── Logout.java
+│ ├── RegisterServlet.java
+│ ├── addbook.java
+│ ├── bookdelete.java
+│ ├── bookupdate.java
+│ └── feedback.java
 ├── web/
-│   ├── assets/
-│   │   ├── favicon.ico
-│   │   ├── css/
-│   │   ├── js/
-│   │   └── images/
-│   │       ├── signin-image.jpg
-│   │       └── signup-image.jpg
-│   ├── WEB-INF/
-│   │   └── web.xml
-│   ├── login.jsp
-│   ├── index.jsp
-│   ├── registration.jsp
-│   ├── addbook.jsp
-│   ├── displayBook.jsp
-│   ├── updatebook.jsp
-│   └── deletebook.jsp
+│ ├── assets/
+│ │ ├── css/
+│ │ ├── js/
+│ │ ├── images/
+│ │ │ ├── signin-image.jpg
+│ │ │ └── signup-image.jpg
+│ │ └── favicon.ico
+│ ├── WEB-INF/
+│ │ └── web.xml
+│ ├── login.jsp
+│ ├── index.jsp
+│ ├── registration.jsp
+│ ├── addbook.jsp
+│ ├── displayBook.jsp
+│ ├── updatebook.jsp
+│ └── deletebook.jsp
+├── min_project.sql
 ├── build.xml
-├── min_project.sql           # ✅ Database schema & seed data
 ├── README.md
 ├── LICENSE
 └── .gitignore
